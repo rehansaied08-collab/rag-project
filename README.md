@@ -34,3 +34,33 @@ This project will be built incrementally each week.
 
 
 
+\## Week 5 — Gemini API Integration
+
+
+
+\*\*/test-gemini endpoint\*\*  
+
+This endpoint sends a hardcoded prompt to the Gemini model (`gemini-2.5-flash`) and returns the AI-generated response as JSON.  
+
+
+
+\*\*Where the Gemini call lives\*\*  
+
+All Gemini API logic is inside the `test\_gemini()` function in `rag\_app.py`. The API key is loaded from `.env` and never exposed to the client.  
+
+
+
+\*\*What I learned\*\*  
+
+\- How to initialize a Gemini model using the `google-generativeai` Python SDK  
+
+\- How to send a prompt and extract the response  
+
+\- Best practices for keeping API keys server-side  
+
+\- How FastAPI endpoints return JSON responses  
+
+
+
+
+
