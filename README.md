@@ -62,5 +62,17 @@ All Gemini API logic is inside the `test\_gemini()` function in `rag\_app.py`. T
 
 
 
+## Week 6 — Multi-Step Execution
+
+This week is  the Gemini endpoint to do two sequence AI calls.
+
+Step 1: Generate an outline on a topic.
+Step 2: Use that outline to generate a more expanded response.
+
+The output of Step 1 is passed directly to  Step 2.
+Only the final expanded result is returned to the client.
+
+This shows a structured multi-step execution instead of a single prompt-response pattern.
+
 
 
